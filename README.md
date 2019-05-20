@@ -1,5 +1,5 @@
 # foe-getsniped
 Forge of Empires calculator webextension for Firefox/Chrome
 
-Check it out on this link:
-https://veljkoj.github.io/foe-getsniped/
+Click <a href="https://veljkoj.github.io/foe-getsniped/getsniped.html" target="_blank"><b>here</b></a> to check it out live
+
