@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "FoE GetSniped",
+	"version": "0.0.1",
+	"author": "vj@mashinerija.com",
+
+	"description": "When your GB is low or too high level and not profitable for anyone to lock 1st or 2nd place, quickly calculate how much FP you should add to make it so.",
+
+	"icons": {
+		"48": "icon_48.png"
+	},
+
+	"browser_action": {
+		"default_icon": "icon_32.png",
+		"default_title": "FoE GetSniped",
+		"default_popup": "getsniped.html"
+	}
+}
+

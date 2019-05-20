@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="getsniped.css">
+</head>
+<body>
+	<div id="calculator">
+		<div id="title">
+			<img src="icon_48.png">
+			<h2>FoE: Get Sniped</h2>
+		</div>
+		<div id="fields">
+			<div class="field">
+				<input type="text" id="fp-required" value="" placeholder="FP Required" maxlength="5">
+				<div class="tooltip">
+					<i class="far fa-question-circle"></i>
+					<span class="tooltiptext">Total FP required for level up</span>
+				</div>
+			</div>
+			<div class="field">
+				<input type="text" id="fp-reward" value="" placeholder="FP Reward" maxlength="5">
+				<div class="tooltip">
+					<i class="far fa-question-circle"></i>
+					<span class="tooltiptext">Amount of FP that 1st positioned donor gets as a reward</span>
+				</div>
+			</div>
+			<div class="field">
+				<input type="text" id="fp-profit" value="" placeholder="Donation Profit" maxlength="5">
+				<div class="tooltip">
+					<i class="far fa-question-circle"></i>
+					<span class="tooltiptext">Amount of FP donor should profit</span>
+				</div>
+			</div>
+			<div class="field">
+				<p>The Arc Boost:</p>
+				<div class="field-inner">
+					<select id="arc-boost">
+						<option value="0">None</option>
+						<option value=".5">50%</option>
+						<option value=".55">55%</option>
+						<option value=".6">60%</option>
+						<option value=".65">65%</option>
+						<option value=".7">70%</option>
+						<option value=".75">75%</option>
+						<option value=".8" selected="selected">80%</option>
+						<option value=".85">85%</option>
+						<option value=".9">90%</option>
+					</select>
+					<div class="tooltip">
+						<i class="far fa-question-circle"></i>
+						<span class="tooltiptext">Donor's expected The Arc boost</span>
+					</div>
+				</div>
+			</div>
+			<div class="field">
+				<p>Result:</p>
+				<div id="output-area"><span>0 FP</span></div>
+			</div>
+		</div>
+	</div>
+<script src="getsniped.js"></script>
+</body>
+</html>
+
+
+
